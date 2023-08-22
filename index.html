@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        <title>Lista de tarefas</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="div">
+                    <h1>Lista de Tarefas</h1>
+                    <button class="showForm">+</button>
+                </div>
+
+            </div>
+            <div class="container">
+                <form class="form-task">
+                    <input id="taskfield" type="text" required
+                        placeholder="Digite o nome da tarefa que deseja adicionar">
+                    <button type="submit">Adicionar</button>
+                </form>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <h1>Tarefas</h1>
+            </div>
+            <div class="container">
+                <div class="tasks">
+                    Não há tarefas adicionadas.
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <script src="./javascript/jquery.js"></script>
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>

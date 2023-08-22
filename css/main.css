@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+
+
+header {
+    background-color: #6F61C0;
+    padding: 16px;
+}
+
+header .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-weight: bold;
+}
+
+.container .showForm {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: rgba(200, 196, 196, 0.3);
+
+}
+
+.container .showForm:hover {
+
+    transition: 0.5s;
+}
+
+.form-task {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+
+form input {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    color: black;
+}
+
+form button {
+    padding: 12px;
+    background-color: rgba(200, 196, 196, 0.3);
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+
+form button:hover {
+    background-color: rgb(145, 145, 145);
+    transition: 1s;
+
+}
+
+section .container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section .container h1 {
+    margin: 24px 0;
+    color: black;
+    font-size: 42px;
+}
+
+
+.tasks{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.task-list {
+    margin: 8px 0;
+    color: black;
+    background-color: white;
+    display: inline;
+    box-shadow: 8px 5px 27px -7px rgba(0, 0, 0, 0.59);
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.striked {
+    text-decoration: line-through;
+}
