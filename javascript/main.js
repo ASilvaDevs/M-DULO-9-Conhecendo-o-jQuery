@@ -26,7 +26,7 @@ $(document).ready(function () {
         let exists = false;
         $('.task-list').each(function () {
             if ($(this).text().trim() === taskValue) {
-                alert('Já existe essa tarefa na lista');
+                alert('Já existe essa tarefa na lista.');
                 exists = true;
                 return false; 
             }
